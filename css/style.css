@@ -14,7 +14,7 @@ h1 {
 
 .hero {
 	height: 100vh;
-	background: url('/img/dotted-arrow-transparent-parallax.png');
+	background: url('../img/dotted-arrow-transparent-parallax.png');
 }
 
 .hero h1 {
@@ -24,10 +24,11 @@ h1 {
 	text-align: center;
 }
 
-
-
-.alert-primary {
-	color: #004085;
-	background-color: #cce5ff;
-	border-color: #b8daff;
+.hero h4 {
+	font-weight: 600;
+	font-size: 32px;
+	text-transform: uppercase;
+	text-align: center;
 }
+
+
