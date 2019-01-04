@@ -1,0 +1,16 @@
+
+
+.col-sm-4 {
+    background: red;
+	padding:4px;
+	
+}
+
+
+
+
+.alert-primary {
+    color: #004085;
+    background-color: #cce5ff;
+    border-color: #b8daff;
+}
