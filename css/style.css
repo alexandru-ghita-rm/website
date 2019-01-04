@@ -12,23 +12,80 @@ h1 {
 }
 
 
+.parallax {
+	height: 100vh;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	perspective: 300px;
+	background: rgb(255, 255, 255);
+	background-image: url(../img/dotted-arrow-transparent-parallax.png)
+}
+
+.parallax__group {
+
+	position: relative;
+	transform-style: preserve-3d;
+	transition: transform 0.5s ease 0s;
+	z-index: 100;
+	height: 70%;
+}
+
+.parallax__layer {
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.parallax__layer--base {
+	transform: translateZ(0px);
+	z-index: 4;
+}
+
+.parallax__layer--back {
+	transform: translateZ(-300px) scale(2);
+	z-index: 3;
+	height: 100%;
+}
+
 .hero {
 	height: 100vh;
 	background: url('../img/dotted-arrow-transparent-parallax.png');
+	display: block;
 }
 
-.hero h1 {
+.parallax h1 {
 	font-weight: 900;
 	font-size: 184px;
 	text-transform: uppercase;
 	text-align: center;
 }
 
-.hero h4 {
+.parallax h4 {
 	font-weight: 600;
 	font-size: 32px;
 	text-transform: uppercase;
 	text-align: center;
+	}
+
+.keep-scrolling {
+	min-height: 600px;
+	background: url('../img/background-x.jpg');
 }
 
+.keep-scrolling h3 {
+	font-weight: 900;
+	font-size: 100px;
+	color: #ffffff;
+	text-align: left;
+	padding-left: 5%;
+	padding-top: 5%;
 
+}
+
+.container-fluid {
+	width: 100%;
+	padding-right: 0px;
+	padding-left: 0px;
+}
