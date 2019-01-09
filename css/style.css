@@ -53,6 +53,14 @@ h1 {
 	display: none;
 }
 
+
+.carousel-control.right {
+	background-image: none;}
+
+.carousel-control.left {
+	background-image: none;}
+
+
 section {
 	min-width: 960px;
 	opacity: 0;
