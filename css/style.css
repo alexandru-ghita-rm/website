@@ -103,10 +103,10 @@ main {
 .hsContent {
 	max-width: 700px;
 	position: absolute;
-	left: 50%;
-	top: 50%;
+text-align:center;
 }
 	.hsContent h2  {
+		top:5px;
 		color: #fff8de;
 		background-color: rgba(0,0,0,0.5);
 		padding: 10px 5px;
@@ -128,4 +128,24 @@ main {
 #slide-1 .hsContent {
 	bottom: 200px;
 	top: auto;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+.keep-scrolling h3 {
+	font-weight: 900;
+	font-size: 54px;
+	color: #ffffff;
+	text-align: left;
+	padding-left: 5%;
+	padding-top: 5%;
+
 }
